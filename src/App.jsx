@@ -1,11 +1,12 @@
-import React from "react";
 import "./App.css";
+import React from "react";
+import UsersList from "./components/UserList";
 
 function App() {
   return (
-    <>
-      <div></div>
-    </>
+    <div className="bg-gray-100 h-screen p-6">
+      <UsersList />
+    </div>
   );
 }
 
